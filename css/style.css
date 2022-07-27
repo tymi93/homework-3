@@ -254,31 +254,32 @@ button {
 
 .activity-list {
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
 }
 
 /* =============== /ACTIVITY =============== */
 
 /* =============== EMPLOES =============== */
 
-.emploes-section {
+.employees-section {
     padding-top: 94px;
     padding-bottom: 94px;
 }
 
-.emploes-title {
+.employees-title {
     padding-bottom: 50px;
     padding-right: 453px;
     padding-left: 453px;
 }
 
-.emploes-list {
+.employees-list {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    gap: 30px;
 }
 
-.emploes-card {
+.employees-card {
     background: #FFFFFF;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
@@ -295,6 +296,8 @@ button {
 
 .contact-futer-list {
     background: #2F303A;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 .logo-futer {
@@ -305,6 +308,10 @@ button {
     line-height: 1.19;
     letter-spacing: 0.03em;
     color: #2196F3;
+}
+
+.futer-contact {
+    padding-top: 20px;
 }
 
 .logo-futer-color {
@@ -324,6 +331,7 @@ button {
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: #FFFFFF;
+    padding-top: 20px;
 }
 
 .contact-futer{
@@ -347,7 +355,20 @@ button {
 
 /* =============== PORTFOLIO =============== */
 
+.work-type-list {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 94px;
+    padding-bottom: 50px;
+    padding-left: 280px;
+    padding-right: 280px;
+}
+
 .btn-list{
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 22px;
+    padding-right: 22px;
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -356,8 +377,9 @@ button {
     text-align: center;
     letter-spacing: 0.03em;
     cursor: pointer;
-    
     color: #212121;
+    background: #F5F4FA;
+    border-radius: 4px;
 }
 
 .btn-list:hover,
@@ -373,7 +395,29 @@ button {
     background: #2196F3;
 }
 
+.completed-works {
+    padding-top: 34px;
+    padding-bottom: 94px;
+}
+
+.works-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.work-card {
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+}
+
 .portfolio-title{
+    padding-top: 20px;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-bottom: 4px;
+    width: 322px;
+    height: 30px;
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -384,6 +428,11 @@ button {
 }
 
 .portfolio-section{
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-bottom: 20px;
+    width: 322px;
+    height: 30px;
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     line-height: 1.87;
