@@ -45,6 +45,7 @@ button {
     font-family: 'Roboto', sans-serif;
     font-weight: 14px;
     color: #212121;
+    margin: 0;
 }
 
 .logo {
@@ -109,12 +110,14 @@ button {
 
 /* =============== HEADER =============== */
 
+.header {
+    border-bottom: 1px solid #757575;
+}
+
 .page-header-container {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-top: 24px;
-    padding-bottom: 25px;
 }
 
 .navigation {
@@ -138,12 +141,14 @@ button {
 }
 
 .menu-link {
+    padding: 32px 0;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: #212121;
+    display: block;
 }
 
 .current {
@@ -175,16 +180,13 @@ button {
 /* =============== HERO =============== */
 
 .hero {
+    text-align: center;
+    padding: 200px 0;
     background: #2F303A;
 }
 
 .hero-side {
-    padding-top: 200px;
     padding-bottom: 30px;
-    padding-left: 237px;
-    padding-right: 237px;
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -199,9 +201,6 @@ button {
     padding-bottom: 10px;
     padding-left: 32px;
     padding-right: 32px;
-    margin-left: 485px;
-    margin-right: 485px;
-    margin-bottom: 200px;
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -357,14 +356,19 @@ button {
 
 .work-type-list {
     display: flex;
-    justify-content: space-between;
-    padding-top: 94px;
-    padding-bottom: 50px;
-    padding-left: 280px;
-    padding-right: 280px;
+    justify-content: center;
+    margin-bottom: 50px;
+    
+}
+
+.buton-list {
+    margin-top: 94px;
+    margin-bottom: 50px;
+    margin-right: 8px;
 }
 
 .btn-list{
+    border: 0;
     padding-top: 6px;
     padding-bottom: 6px;
     padding-left: 22px;
@@ -411,11 +415,15 @@ button {
     border: 1px solid #EEEEEE;
 }
 
-.portfolio-title{
+.portfolio-padding {
     padding-top: 20px;
+    padding-bottom: 20px;
     padding-left: 24px;
     padding-right: 24px;
-    padding-bottom: 4px;
+}
+
+.portfolio-title{
+    margin-bottom: 4px;
     width: 322px;
     height: 30px;
     font-family: 'Roboto', sans-serif;
@@ -428,9 +436,6 @@ button {
 }
 
 .portfolio-section{
-    padding-left: 24px;
-    padding-right: 24px;
-    padding-bottom: 20px;
     width: 322px;
     height: 30px;
     font-family: 'Roboto', sans-serif;
