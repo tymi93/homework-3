@@ -111,7 +111,7 @@ button {
 /* =============== HEADER =============== */
 
 .header {
-    border-bottom: 1px solid #757575;
+    border-bottom: 1px solid #ececec;
 }
 
 .page-header-container {
@@ -162,6 +162,7 @@ button {
 }
 
 .contact {
+    padding: 32px 0;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -213,13 +214,15 @@ button {
     border-radius: 4px;
 }
 
-.sub-title-list {
-    display: flex;
-    margin-top: 94px;
-    margin-bottom: 94px;
+.section-index {
+    padding: 94px 0;
 }
 
-.title-sub-list {
+.sub-title-list {
+    display: flex;
+}
+
+.title-sub-list:not(:last-child) {
     margin-right: 30px;
 }
 
@@ -246,9 +249,7 @@ button {
 }
 
 .activity-title {
-    padding-bottom: 50px;
-    padding-right: 397px;
-    padding-left: 397px;
+    margin-bottom: 50px;
 }
 
 .activity-list {
@@ -262,14 +263,13 @@ button {
 /* =============== EMPLOES =============== */
 
 .employees-section {
+    background-color: #F5F4FA;
     padding-top: 94px;
     padding-bottom: 94px;
 }
 
 .employees-title {
-    padding-bottom: 50px;
-    padding-right: 453px;
-    padding-left: 453px;
+    margin-bottom: 50px;
 }
 
 .employees-list {
@@ -285,8 +285,12 @@ button {
 }
 
 .name-contact-people {
+    margin-bottom: 10px;
+}
+
+.index-padding {
     padding-top: 30px;
-    padding-bottom: 10px;
+    padding-bottom: 30px;
 }
 
 /* =============== /EMPLOES =============== */
@@ -354,6 +358,10 @@ button {
 
 /* =============== PORTFOLIO =============== */
 
+.section {
+    padding-top: 94px;
+}
+
 .work-type-list {
     display: flex;
     justify-content: center;
@@ -361,9 +369,7 @@ button {
     
 }
 
-.buton-list {
-    margin-top: 94px;
-    margin-bottom: 50px;
+.buton-list:not(:last-child) {
     margin-right: 8px;
 }
 
