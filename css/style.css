@@ -32,6 +32,7 @@ button {
 }
 
 .container {
+    box-sizing: border-box;
     width: 1200px;
     margin-left: auto;
     margin-right: auto;
@@ -137,7 +138,6 @@ button {
 .contact {
     display: flex;
     align-items: center;
-    margin-left: 50px;
 }
 
 .menu-link {
@@ -161,14 +161,23 @@ button {
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
+.ct-list {
+    display: flex;
+    margin-left: 50px;
+}
+
+.ct-list:first-child {
+    margin-left: 0;
+}
+
 .contact {
-    padding: 32px 0;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: #757575;
+    font-style: normal;
 }
 
 .contact:hover,
@@ -227,6 +236,7 @@ button {
 }
 
 .sub-title {
+    margin-bottom: 10px;
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
@@ -359,7 +369,7 @@ button {
 /* =============== PORTFOLIO =============== */
 
 .section {
-    padding-top: 94px;
+    padding: 94px 0;
 }
 
 .work-type-list {
@@ -411,21 +421,25 @@ button {
 }
 
 .works-list {
+    justify-content: space-between;
     display: flex;
     flex-wrap: wrap;
-    gap: 30px;
+    gap: 30px 0;
 }
 
 .work-card {
+    width: 31%;
     background: #FFFFFF;
     border: 1px solid #EEEEEE;
 }
 
+.work-photo {
+    width: 100%;
+}
+
 .portfolio-padding {
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 24px;
-    padding-right: 24px;
+    width: 100%;
+    padding: 20px 24px;
 }
 
 .portfolio-title{
